@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
             PauseGame();
         }
     }
-
+   
     public void PauseGame()
     {
         Time.timeScale = 0f;
